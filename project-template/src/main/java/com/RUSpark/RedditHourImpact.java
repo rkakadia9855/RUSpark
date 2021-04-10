@@ -62,6 +62,8 @@ public class RedditHourImpact {
             System.out.println(lastHour + " 0");
           }
         }
+        
+        spark.stop();
 		
 	}
 	

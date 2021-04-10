@@ -66,6 +66,8 @@ public class RedditPhotoImpact {
 	    for (Tuple2<?,?> tuple : output) {
 	      System.out.println(tuple._1() + " " + tuple._2());
 	    }
+	    
+	    spark.stop();
 		
 	}
 	
